@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Web components</title>
+
+</head>
+
+<body>
+<h1>Web components</h1>
+<h2>Custom element</h2>
+<div>
+    <p>With custom dateTime: </p>
+    <current-date-info dateTime="1995.09.27" ></current-date-info>
+</div>
+<div>
+    <p>Without custom dateTime: </p>
+    <current-date-info></current-date-info>
+</div>
+<h2>Custom element - button + date p</h2>
+<div>
+    <button is="show-new-date-btn"></button>
+    <div class="date-container">
+    </div>
+</div>
+
+<script src="customElements/CurrentDateInfo.js"></script>
+<script src="customElements/ShowNewDateButton.js"></script>
+</body>
+</html>
