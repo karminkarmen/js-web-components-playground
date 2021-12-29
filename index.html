@@ -4,9 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Web components</title>
-
 </head>
 
 <body>
@@ -21,13 +19,14 @@
     <current-date-info></current-date-info>
 </div>
 <h2>Custom element - button + date p</h2>
-<div>
-    <button is="show-new-date-btn"></button>
-    <div class="date-container">
+<div class="new-date-with-btn-container">
+    <div class="new-dates-container">
     </div>
 </div>
 
 <script src="customElements/CurrentDateInfo.js"></script>
-<script src="customElements/ShowNewDateButton.js"></script>
+<script src="customElements/NewDateButton.js"></script>
+<script src="templates/AnimatedButton.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
